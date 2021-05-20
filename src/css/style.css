@@ -1,0 +1,38 @@
+img {
+  display: block;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+.card-title {
+  text-align: center;
+  font-size: 50px;
+}
+.card-text {
+  font-size: 20px;
+}
+.list-item {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.search {
+  display: block;
+  margin: 150px auto 0;
+}
+.card-info {
+  margin-right: 40px;
+}
+.countries-list {
+  text-align: center;
+}
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/British_Empire_evolution3.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 25px;
+}

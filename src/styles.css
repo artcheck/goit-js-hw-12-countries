@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  background-image: url(https://gect.ru/maps/world_maps/world_flags.jpg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.container {
+  margin-left: 15px;
+  margin-top: 25vh;
+}
+
+.form {
+  margin-left: 15px;
+  width: 800px;
+}
+
+.form > label {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  font: inherit;
+  padding: 8px;
+}
+
+.card {
+  display: flex;
+}
+
+.card-body {
+  width: 300px;
+}
+
+.card-img {
+  width: 500px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-text span {
+  font-weight: bold;
+}
+
+.card-title span {
+  font-weight: normal;
+}
